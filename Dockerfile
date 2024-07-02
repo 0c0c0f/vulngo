@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22.4
 
 #$GOPATHに/go/srcを追加．この後srcの下にアプリケーションフォルダを作成する為
 ENV GOPATH $GOPATH:/go/src
